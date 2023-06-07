@@ -346,7 +346,7 @@ footer {
 @media screen and (max-width:900px) {
     .nav-container {
         display: block;
-        padding: 0;
+        padding: 10px
     }
     .nav-items-1 {
         display: none;
@@ -368,19 +368,17 @@ footer {
     }
     .logo {
         width: 17%;
-        padding-left: 1.2rem;
         margin: 0;
     }
     .toggle-menu {
-        left: 11rem;
-        top: 2rem;
-        position: relative;
+        margin-top: 12px;
         opacity: 1;
         width: 15%;
+        float: right;
     }
     .bx-chevron-down {
         position: absolute;
-        top: 2px;
+        top: 1.5rem;
     }
     input[type="checkbox"] {
         display: none;

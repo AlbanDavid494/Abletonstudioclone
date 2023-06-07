@@ -15,12 +15,13 @@
      display: flex;
      font-size: 14px;
      margin: 0;
-     padding: 0;
+     padding: 5px 0;
  }
  
  #nav-logo {
      margin-left: -1.1rem;
      padding: 0;
+     width: 5%;
  }
  
  .logo {
@@ -28,12 +29,14 @@
  }
  
  .txt-links {
-     padding: 0 10px;
+     padding: 0 1rem;
+     font-size: 1.3em;
      color: #000;
  }
  
  .txt-link {
      padding: 0 1rem;
+     font-size: 1.3em;
      color: #ff764d;
  }
  
@@ -74,19 +77,20 @@
  }
  
  .nav-items-2 {
-     margin-left: 8.5rem;
+     margin-left: 12.8rem;
      font-weight: bold;
+     padding: 5px;
  }
  
  .nav-links-2 {
      color: #0000ff;
-     font-size: 14px;
+     font-size: 1.2em;
  }
  
  .nav-link-2 {
      padding: 0 1rem;
      color: #000;
-     font-size: 10px;
+     font-size: 14px;
  }
  
  .semi-nav-cont {
@@ -97,7 +101,7 @@
      margin: 0;
      display: flex;
      padding: 1rem 0;
-     font-size: 12px;
+     font-size: 14px;
      font-weight: bold;
  }
  
@@ -133,6 +137,11 @@
  .box a {
      font-size: 2em;
      color: #0000ff;
+ }
+ 
+ .bx-play-circle {
+     position: relative;
+     top: 3px;
  }
  
  .bx-a {
@@ -174,6 +183,11 @@
      display: grid;
      grid-template-columns: repeat(3, 1fr);
      gap: 1.5rem;
+     padding: 0 4rem 0 0;
+ }
+ 
+ .img-cont {
+     width: 100%;
  }
  
  .bx2-img {
@@ -642,10 +656,10 @@
  /* footer-ends here  */
  /* screen size less than or equal to 400px */
  
- @media screen and (max-width:900px) {
+ @media screen and (max-width:962px) {
      .nav-container {
          display: block;
-         padding: 0;
+         padding: 10px;
      }
      .nav-items-1 {
          display: none;
@@ -660,21 +674,26 @@
          padding: 0;
          font-size: 1.2em;
      }
+     #nav-logo {
+         margin: 0;
+         padding: 0;
+         width: 100%;
+     }
      .logo {
-         width: 17%;
-         padding-left: 1.8rem;
+         width: 18%;
          margin: 0;
      }
      .toggle-menu {
-         left: 11rem;
-         top: 2.2rem;
-         position: relative;
          opacity: 1;
          width: 15%;
+         font-weight: bold;
+         float: right;
+         margin-top: 10px;
      }
      .bx-chevron-down {
          position: absolute;
-         top: 2px;
+         top: 1.5rem;
+         font-weight: bold;
      }
      input[type="checkbox"] {
          display: none;
@@ -689,9 +708,6 @@
      }
      ul {
          display: none;
-     }
-     .txt-link {
-         color: #ff764d;
      }
      .txt-links {
          color: #fff;
@@ -709,7 +725,7 @@
          color: #fff;
      }
      .Nav-Link-1 {
-         color: #fff;
+         color: #ff764d;
          font-weight: lighter;
          font-size: 12px;
      }
